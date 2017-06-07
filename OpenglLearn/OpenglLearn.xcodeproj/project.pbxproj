@@ -13,9 +13,58 @@
 		75E13AF01EE7E79800F4115E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E13AEE1EE7E79800F4115E /* Main.storyboard */; };
 		75E13AF21EE7E79800F4115E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E13AF11EE7E79800F4115E /* Assets.xcassets */; };
 		75E13AF51EE7E79800F4115E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E13AF31EE7E79800F4115E /* LaunchScreen.storyboard */; };
+		75E13B891EE7EAD000F4115E /* TJ_BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13B831EE7EAD000F4115E /* TJ_BaseController.m */; };
+		75E13B8A1EE7EAD000F4115E /* TJ_PictureBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13B851EE7EAD000F4115E /* TJ_PictureBaseVC.m */; };
+		75E13B8B1EE7EAD000F4115E /* TJ_OpenglBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13B881EE7EAD000F4115E /* TJ_OpenglBaseView.m */; };
+		75E13BA91EE7EBC600F4115E /* ImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13B9D1EE7EBC600F4115E /* ImagePicker.m */; };
+		75E13BAA1EE7EBC600F4115E /* OpenglTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75E13B9F1EE7EBC600F4115E /* OpenglTool.mm */; };
+		75E13BAB1EE7EBC600F4115E /* TJ_GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13BA11EE7EBC600F4115E /* TJ_GLProgram.m */; };
+		75E13BAC1EE7EBC600F4115E /* TJ_PointConver.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13BA31EE7EBC600F4115E /* TJ_PointConver.m */; };
+		75E13BAE1EE7ECF900F4115E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E13BAD1EE7ECF900F4115E /* OpenGLES.framework */; };
+		75E13BB01EE7ED0000F4115E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E13BAF1EE7ED0000F4115E /* UIKit.framework */; };
+		75E13BB21EE7ED0600F4115E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E13BB11EE7ED0600F4115E /* Foundation.framework */; };
+		75E13BB61EE7EF9800F4115E /* TJ_Opengl_C.c in Sources */ = {isa = PBXBuildFile; fileRef = 75E13BB41EE7EF9800F4115E /* TJ_Opengl_C.c */; };
+		75E13BBE1EE7F0CC00F4115E /* OpenGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13BBD1EE7F0CC00F4115E /* OpenGLViewController.m */; };
+		75E13BC11EE7F27100F4115E /* TJOpenglesCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13BC01EE7F27100F4115E /* TJOpenglesCurve.m */; };
+		75E13C5F1EE7F3CF00F4115E /* image001.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C021EE7F3CF00F4115E /* image001.png */; };
+		75E13C601EE7F3CF00F4115E /* IMG_0963.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C031EE7F3CF00F4115E /* IMG_0963.PNG */; };
+		75E13C611EE7F3CF00F4115E /* sj_20160705_1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C041EE7F3CF00F4115E /* sj_20160705_1.JPG */; };
+		75E13C621EE7F3CF00F4115E /* sj_20160705_10.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C051EE7F3CF00F4115E /* sj_20160705_10.JPG */; };
+		75E13C631EE7F3CF00F4115E /* sj_20160705_11.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C061EE7F3CF00F4115E /* sj_20160705_11.JPG */; };
+		75E13C641EE7F3CF00F4115E /* sj_20160705_12.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C071EE7F3CF00F4115E /* sj_20160705_12.JPG */; };
+		75E13C651EE7F3CF00F4115E /* sj_20160705_13.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C081EE7F3CF00F4115E /* sj_20160705_13.JPG */; };
+		75E13C661EE7F3CF00F4115E /* sj_20160705_14.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C091EE7F3CF00F4115E /* sj_20160705_14.JPG */; };
+		75E13C671EE7F3CF00F4115E /* sj_20160705_15.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C0A1EE7F3CF00F4115E /* sj_20160705_15.JPG */; };
+		75E13C681EE7F3CF00F4115E /* sj_20160705_16.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C0B1EE7F3CF00F4115E /* sj_20160705_16.JPG */; };
+		75E13C691EE7F3CF00F4115E /* sj_20160705_17.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C0C1EE7F3CF00F4115E /* sj_20160705_17.JPG */; };
+		75E13C6A1EE7F3CF00F4115E /* sj_20160705_18.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C0D1EE7F3CF00F4115E /* sj_20160705_18.JPG */; };
+		75E13C6B1EE7F3CF00F4115E /* sj_20160705_19.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C0E1EE7F3CF00F4115E /* sj_20160705_19.JPG */; };
+		75E13C6C1EE7F3CF00F4115E /* sj_20160705_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C0F1EE7F3CF00F4115E /* sj_20160705_2.JPG */; };
+		75E13C6D1EE7F3CF00F4115E /* sj_20160705_20.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C101EE7F3CF00F4115E /* sj_20160705_20.JPG */; };
+		75E13C6E1EE7F3CF00F4115E /* sj_20160705_21.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C111EE7F3CF00F4115E /* sj_20160705_21.JPG */; };
+		75E13C6F1EE7F3CF00F4115E /* sj_20160705_22.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C121EE7F3CF00F4115E /* sj_20160705_22.JPG */; };
+		75E13C701EE7F3CF00F4115E /* sj_20160705_23.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C131EE7F3CF00F4115E /* sj_20160705_23.JPG */; };
+		75E13C711EE7F3CF00F4115E /* sj_20160705_24.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C141EE7F3CF00F4115E /* sj_20160705_24.JPG */; };
+		75E13C721EE7F3CF00F4115E /* sj_20160705_25.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C151EE7F3CF00F4115E /* sj_20160705_25.JPG */; };
+		75E13C731EE7F3CF00F4115E /* sj_20160705_26.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C161EE7F3CF00F4115E /* sj_20160705_26.JPG */; };
+		75E13C741EE7F3CF00F4115E /* sj_20160705_28.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C171EE7F3CF00F4115E /* sj_20160705_28.JPG */; };
+		75E13C751EE7F3CF00F4115E /* sj_20160705_29.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C181EE7F3CF00F4115E /* sj_20160705_29.JPG */; };
+		75E13C761EE7F3CF00F4115E /* sj_20160705_3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C191EE7F3CF00F4115E /* sj_20160705_3.JPG */; };
+		75E13C771EE7F3CF00F4115E /* sj_20160705_30.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C1A1EE7F3CF00F4115E /* sj_20160705_30.JPG */; };
+		75E13C781EE7F3CF00F4115E /* sj_20160705_31.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C1B1EE7F3CF00F4115E /* sj_20160705_31.JPG */; };
+		75E13C791EE7F3CF00F4115E /* sj_20160705_4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C1C1EE7F3CF00F4115E /* sj_20160705_4.JPG */; };
+		75E13C7A1EE7F3CF00F4115E /* sj_20160705_5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C1D1EE7F3CF00F4115E /* sj_20160705_5.JPG */; };
+		75E13C7B1EE7F3CF00F4115E /* sj_20160705_6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C1E1EE7F3CF00F4115E /* sj_20160705_6.JPG */; };
+		75E13C7C1EE7F3CF00F4115E /* sj_20160705_7.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C1F1EE7F3CF00F4115E /* sj_20160705_7.JPG */; };
+		75E13C7D1EE7F3CF00F4115E /* sj_20160705_8.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C201EE7F3CF00F4115E /* sj_20160705_8.JPG */; };
+		75E13C7E1EE7F3CF00F4115E /* sj_20160705_9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C211EE7F3CF00F4115E /* sj_20160705_9.JPG */; };
+		75E13C841EE7F47E00F4115E /* TJ_DrawTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13C811EE7F47E00F4115E /* TJ_DrawTool.m */; };
+		75E13C851EE7F47E00F4115E /* TJ_DrawTool_C.c in Sources */ = {isa = PBXBuildFile; fileRef = 75E13C821EE7F47E00F4115E /* TJ_DrawTool_C.c */; };
+		7F25AE516D6D776ED02FA33D /* libPods-OpenglLearn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 593BBCC2465661C4A56865D5 /* libPods-OpenglLearn.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		593BBCC2465661C4A56865D5 /* libPods-OpenglLearn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenglLearn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E13AE21EE7E79800F4115E /* OpenglLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenglLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E13AE61EE7E79800F4115E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75E13AE81EE7E79800F4115E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +75,69 @@
 		75E13AF11EE7E79800F4115E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75E13AF41EE7E79800F4115E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75E13AF61EE7E79800F4115E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E13AFC1EE7E91000F4115E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		75E13B821EE7EAD000F4115E /* TJ_BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJ_BaseController.h; sourceTree = "<group>"; };
+		75E13B831EE7EAD000F4115E /* TJ_BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJ_BaseController.m; sourceTree = "<group>"; };
+		75E13B841EE7EAD000F4115E /* TJ_PictureBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJ_PictureBaseVC.h; sourceTree = "<group>"; };
+		75E13B851EE7EAD000F4115E /* TJ_PictureBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJ_PictureBaseVC.m; sourceTree = "<group>"; };
+		75E13B871EE7EAD000F4115E /* TJ_OpenglBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJ_OpenglBaseView.h; sourceTree = "<group>"; };
+		75E13B881EE7EAD000F4115E /* TJ_OpenglBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJ_OpenglBaseView.m; sourceTree = "<group>"; };
+		75E13B9C1EE7EBC600F4115E /* ImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePicker.h; sourceTree = "<group>"; };
+		75E13B9D1EE7EBC600F4115E /* ImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePicker.m; sourceTree = "<group>"; };
+		75E13B9E1EE7EBC600F4115E /* OpenglTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenglTool.h; sourceTree = "<group>"; };
+		75E13B9F1EE7EBC600F4115E /* OpenglTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenglTool.mm; sourceTree = "<group>"; };
+		75E13BA01EE7EBC600F4115E /* TJ_GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJ_GLProgram.h; sourceTree = "<group>"; };
+		75E13BA11EE7EBC600F4115E /* TJ_GLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJ_GLProgram.m; sourceTree = "<group>"; };
+		75E13BA21EE7EBC600F4115E /* TJ_PointConver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJ_PointConver.h; sourceTree = "<group>"; };
+		75E13BA31EE7EBC600F4115E /* TJ_PointConver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJ_PointConver.m; sourceTree = "<group>"; };
+		75E13BAD1EE7ECF900F4115E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		75E13BAF1EE7ED0000F4115E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75E13BB11EE7ED0600F4115E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75E13BB41EE7EF9800F4115E /* TJ_Opengl_C.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TJ_Opengl_C.c; sourceTree = "<group>"; };
+		75E13BB51EE7EF9800F4115E /* TJ_Opengl_C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJ_Opengl_C.h; sourceTree = "<group>"; };
+		75E13BB81EE7EFF100F4115E /* cHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cHeader.h; sourceTree = "<group>"; };
+		75E13BBC1EE7F0CC00F4115E /* OpenGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLViewController.h; sourceTree = "<group>"; };
+		75E13BBD1EE7F0CC00F4115E /* OpenGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLViewController.m; sourceTree = "<group>"; };
+		75E13BBF1EE7F27100F4115E /* TJOpenglesCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJOpenglesCurve.h; sourceTree = "<group>"; };
+		75E13BC01EE7F27100F4115E /* TJOpenglesCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJOpenglesCurve.m; sourceTree = "<group>"; };
+		75E13C021EE7F3CF00F4115E /* image001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image001.png; sourceTree = "<group>"; };
+		75E13C031EE7F3CF00F4115E /* IMG_0963.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0963.PNG; sourceTree = "<group>"; };
+		75E13C041EE7F3CF00F4115E /* sj_20160705_1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_1.JPG; sourceTree = "<group>"; };
+		75E13C051EE7F3CF00F4115E /* sj_20160705_10.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_10.JPG; sourceTree = "<group>"; };
+		75E13C061EE7F3CF00F4115E /* sj_20160705_11.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_11.JPG; sourceTree = "<group>"; };
+		75E13C071EE7F3CF00F4115E /* sj_20160705_12.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_12.JPG; sourceTree = "<group>"; };
+		75E13C081EE7F3CF00F4115E /* sj_20160705_13.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_13.JPG; sourceTree = "<group>"; };
+		75E13C091EE7F3CF00F4115E /* sj_20160705_14.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_14.JPG; sourceTree = "<group>"; };
+		75E13C0A1EE7F3CF00F4115E /* sj_20160705_15.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_15.JPG; sourceTree = "<group>"; };
+		75E13C0B1EE7F3CF00F4115E /* sj_20160705_16.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_16.JPG; sourceTree = "<group>"; };
+		75E13C0C1EE7F3CF00F4115E /* sj_20160705_17.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_17.JPG; sourceTree = "<group>"; };
+		75E13C0D1EE7F3CF00F4115E /* sj_20160705_18.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_18.JPG; sourceTree = "<group>"; };
+		75E13C0E1EE7F3CF00F4115E /* sj_20160705_19.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_19.JPG; sourceTree = "<group>"; };
+		75E13C0F1EE7F3CF00F4115E /* sj_20160705_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_2.JPG; sourceTree = "<group>"; };
+		75E13C101EE7F3CF00F4115E /* sj_20160705_20.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_20.JPG; sourceTree = "<group>"; };
+		75E13C111EE7F3CF00F4115E /* sj_20160705_21.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_21.JPG; sourceTree = "<group>"; };
+		75E13C121EE7F3CF00F4115E /* sj_20160705_22.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_22.JPG; sourceTree = "<group>"; };
+		75E13C131EE7F3CF00F4115E /* sj_20160705_23.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_23.JPG; sourceTree = "<group>"; };
+		75E13C141EE7F3CF00F4115E /* sj_20160705_24.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_24.JPG; sourceTree = "<group>"; };
+		75E13C151EE7F3CF00F4115E /* sj_20160705_25.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_25.JPG; sourceTree = "<group>"; };
+		75E13C161EE7F3CF00F4115E /* sj_20160705_26.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_26.JPG; sourceTree = "<group>"; };
+		75E13C171EE7F3CF00F4115E /* sj_20160705_28.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_28.JPG; sourceTree = "<group>"; };
+		75E13C181EE7F3CF00F4115E /* sj_20160705_29.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_29.JPG; sourceTree = "<group>"; };
+		75E13C191EE7F3CF00F4115E /* sj_20160705_3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_3.JPG; sourceTree = "<group>"; };
+		75E13C1A1EE7F3CF00F4115E /* sj_20160705_30.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_30.JPG; sourceTree = "<group>"; };
+		75E13C1B1EE7F3CF00F4115E /* sj_20160705_31.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_31.JPG; sourceTree = "<group>"; };
+		75E13C1C1EE7F3CF00F4115E /* sj_20160705_4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_4.JPG; sourceTree = "<group>"; };
+		75E13C1D1EE7F3CF00F4115E /* sj_20160705_5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_5.JPG; sourceTree = "<group>"; };
+		75E13C1E1EE7F3CF00F4115E /* sj_20160705_6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_6.JPG; sourceTree = "<group>"; };
+		75E13C1F1EE7F3CF00F4115E /* sj_20160705_7.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_7.JPG; sourceTree = "<group>"; };
+		75E13C201EE7F3CF00F4115E /* sj_20160705_8.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_8.JPG; sourceTree = "<group>"; };
+		75E13C211EE7F3CF00F4115E /* sj_20160705_9.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sj_20160705_9.JPG; sourceTree = "<group>"; };
+		75E13C801EE7F47E00F4115E /* TJ_DrawTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJ_DrawTool.h; sourceTree = "<group>"; };
+		75E13C811EE7F47E00F4115E /* TJ_DrawTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJ_DrawTool.m; sourceTree = "<group>"; };
+		75E13C821EE7F47E00F4115E /* TJ_DrawTool_C.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TJ_DrawTool_C.c; sourceTree = "<group>"; };
+		75E13C831EE7F47E00F4115E /* TJ_DrawTool_C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJ_DrawTool_C.h; sourceTree = "<group>"; };
+		A0F02AF0C7E472A33B68CADF /* Pods-OpenglLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenglLearn.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenglLearn/Pods-OpenglLearn.release.xcconfig"; sourceTree = "<group>"; };
+		FEEDAF59250C38C7BEFCEDCB /* Pods-OpenglLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenglLearn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenglLearn/Pods-OpenglLearn.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +145,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E13BB21EE7ED0600F4115E /* Foundation.framework in Frameworks */,
+				75E13BB01EE7ED0000F4115E /* UIKit.framework in Frameworks */,
+				75E13BAE1EE7ECF900F4115E /* OpenGLES.framework in Frameworks */,
+				7F25AE516D6D776ED02FA33D /* libPods-OpenglLearn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63F32FC567CA8D92580C6FB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75E13BB11EE7ED0600F4115E /* Foundation.framework */,
+				75E13BAF1EE7ED0000F4115E /* UIKit.framework */,
+				75E13BAD1EE7ECF900F4115E /* OpenGLES.framework */,
+				593BBCC2465661C4A56865D5 /* libPods-OpenglLearn.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		75E13AD91EE7E79800F4115E = {
 			isa = PBXGroup;
 			children = (
 				75E13AE41EE7E79800F4115E /* OpenglLearn */,
 				75E13AE31EE7E79800F4115E /* Products */,
+				8D7C6EE0B6C92BEFB8683CCC /* Pods */,
+				63F32FC567CA8D92580C6FB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +187,9 @@
 		75E13AE41EE7E79800F4115E /* OpenglLearn */ = {
 			isa = PBXGroup;
 			children = (
+				75E13BC21EE7F3CF00F4115E /* imagePath */,
+				75E13B8C1EE7EB6E00F4115E /* Utils */,
+				75E13AFD1EE7E9B600F4115E /* Class */,
 				75E13AE81EE7E79800F4115E /* AppDelegate.h */,
 				75E13AE91EE7E79800F4115E /* AppDelegate.m */,
 				75E13AEB1EE7E79800F4115E /* ViewController.h */,
@@ -67,6 +199,7 @@
 				75E13AF31EE7E79800F4115E /* LaunchScreen.storyboard */,
 				75E13AF61EE7E79800F4115E /* Info.plist */,
 				75E13AE51EE7E79800F4115E /* Supporting Files */,
+				75E13AFC1EE7E91000F4115E /* PrefixHeader.pch */,
 			);
 			path = OpenglLearn;
 			sourceTree = "<group>";
@@ -79,6 +212,181 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		75E13AFD1EE7E9B600F4115E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				75E13BB91EE7F0AC00F4115E /* Opengl */,
+				75E13B801EE7EAAC00F4115E /* Base */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		75E13B801EE7EAAC00F4115E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				75E13B811EE7EAD000F4115E /* Controller */,
+				75E13B861EE7EAD000F4115E /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		75E13B811EE7EAD000F4115E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75E13B821EE7EAD000F4115E /* TJ_BaseController.h */,
+				75E13B831EE7EAD000F4115E /* TJ_BaseController.m */,
+				75E13B841EE7EAD000F4115E /* TJ_PictureBaseVC.h */,
+				75E13B851EE7EAD000F4115E /* TJ_PictureBaseVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75E13B861EE7EAD000F4115E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75E13B871EE7EAD000F4115E /* TJ_OpenglBaseView.h */,
+				75E13B881EE7EAD000F4115E /* TJ_OpenglBaseView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75E13B8C1EE7EB6E00F4115E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				75E13BB71EE7EFF100F4115E /* header */,
+				75E13B8E1EE7EBC600F4115E /* Tool */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		75E13B8E1EE7EBC600F4115E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				75E13BB31EE7EF9800F4115E /* c_tool */,
+				75E13B9B1EE7EBC600F4115E /* oc_tool */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		75E13B9B1EE7EBC600F4115E /* oc_tool */ = {
+			isa = PBXGroup;
+			children = (
+				75E13B9C1EE7EBC600F4115E /* ImagePicker.h */,
+				75E13B9D1EE7EBC600F4115E /* ImagePicker.m */,
+				75E13B9E1EE7EBC600F4115E /* OpenglTool.h */,
+				75E13B9F1EE7EBC600F4115E /* OpenglTool.mm */,
+				75E13BA01EE7EBC600F4115E /* TJ_GLProgram.h */,
+				75E13BA11EE7EBC600F4115E /* TJ_GLProgram.m */,
+				75E13BA21EE7EBC600F4115E /* TJ_PointConver.h */,
+				75E13BA31EE7EBC600F4115E /* TJ_PointConver.m */,
+			);
+			path = oc_tool;
+			sourceTree = "<group>";
+		};
+		75E13BB31EE7EF9800F4115E /* c_tool */ = {
+			isa = PBXGroup;
+			children = (
+				75E13BB41EE7EF9800F4115E /* TJ_Opengl_C.c */,
+				75E13BB51EE7EF9800F4115E /* TJ_Opengl_C.h */,
+			);
+			path = c_tool;
+			sourceTree = "<group>";
+		};
+		75E13BB71EE7EFF100F4115E /* header */ = {
+			isa = PBXGroup;
+			children = (
+				75E13BB81EE7EFF100F4115E /* cHeader.h */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+		75E13BB91EE7F0AC00F4115E /* Opengl */ = {
+			isa = PBXGroup;
+			children = (
+				75E13C7F1EE7F47E00F4115E /* Util */,
+				75E13BBA1EE7F0AC00F4115E /* Controller */,
+				75E13BBB1EE7F0AC00F4115E /* View */,
+			);
+			path = Opengl;
+			sourceTree = "<group>";
+		};
+		75E13BBA1EE7F0AC00F4115E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75E13BBC1EE7F0CC00F4115E /* OpenGLViewController.h */,
+				75E13BBD1EE7F0CC00F4115E /* OpenGLViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75E13BBB1EE7F0AC00F4115E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75E13BBF1EE7F27100F4115E /* TJOpenglesCurve.h */,
+				75E13BC01EE7F27100F4115E /* TJOpenglesCurve.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75E13BC21EE7F3CF00F4115E /* imagePath */ = {
+			isa = PBXGroup;
+			children = (
+				75E13C021EE7F3CF00F4115E /* image001.png */,
+				75E13C031EE7F3CF00F4115E /* IMG_0963.PNG */,
+				75E13C041EE7F3CF00F4115E /* sj_20160705_1.JPG */,
+				75E13C051EE7F3CF00F4115E /* sj_20160705_10.JPG */,
+				75E13C061EE7F3CF00F4115E /* sj_20160705_11.JPG */,
+				75E13C071EE7F3CF00F4115E /* sj_20160705_12.JPG */,
+				75E13C081EE7F3CF00F4115E /* sj_20160705_13.JPG */,
+				75E13C091EE7F3CF00F4115E /* sj_20160705_14.JPG */,
+				75E13C0A1EE7F3CF00F4115E /* sj_20160705_15.JPG */,
+				75E13C0B1EE7F3CF00F4115E /* sj_20160705_16.JPG */,
+				75E13C0C1EE7F3CF00F4115E /* sj_20160705_17.JPG */,
+				75E13C0D1EE7F3CF00F4115E /* sj_20160705_18.JPG */,
+				75E13C0E1EE7F3CF00F4115E /* sj_20160705_19.JPG */,
+				75E13C0F1EE7F3CF00F4115E /* sj_20160705_2.JPG */,
+				75E13C101EE7F3CF00F4115E /* sj_20160705_20.JPG */,
+				75E13C111EE7F3CF00F4115E /* sj_20160705_21.JPG */,
+				75E13C121EE7F3CF00F4115E /* sj_20160705_22.JPG */,
+				75E13C131EE7F3CF00F4115E /* sj_20160705_23.JPG */,
+				75E13C141EE7F3CF00F4115E /* sj_20160705_24.JPG */,
+				75E13C151EE7F3CF00F4115E /* sj_20160705_25.JPG */,
+				75E13C161EE7F3CF00F4115E /* sj_20160705_26.JPG */,
+				75E13C171EE7F3CF00F4115E /* sj_20160705_28.JPG */,
+				75E13C181EE7F3CF00F4115E /* sj_20160705_29.JPG */,
+				75E13C191EE7F3CF00F4115E /* sj_20160705_3.JPG */,
+				75E13C1A1EE7F3CF00F4115E /* sj_20160705_30.JPG */,
+				75E13C1B1EE7F3CF00F4115E /* sj_20160705_31.JPG */,
+				75E13C1C1EE7F3CF00F4115E /* sj_20160705_4.JPG */,
+				75E13C1D1EE7F3CF00F4115E /* sj_20160705_5.JPG */,
+				75E13C1E1EE7F3CF00F4115E /* sj_20160705_6.JPG */,
+				75E13C1F1EE7F3CF00F4115E /* sj_20160705_7.JPG */,
+				75E13C201EE7F3CF00F4115E /* sj_20160705_8.JPG */,
+				75E13C211EE7F3CF00F4115E /* sj_20160705_9.JPG */,
+			);
+			path = imagePath;
+			sourceTree = "<group>";
+		};
+		75E13C7F1EE7F47E00F4115E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				75E13C801EE7F47E00F4115E /* TJ_DrawTool.h */,
+				75E13C811EE7F47E00F4115E /* TJ_DrawTool.m */,
+				75E13C821EE7F47E00F4115E /* TJ_DrawTool_C.c */,
+				75E13C831EE7F47E00F4115E /* TJ_DrawTool_C.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		8D7C6EE0B6C92BEFB8683CCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEEDAF59250C38C7BEFCEDCB /* Pods-OpenglLearn.debug.xcconfig */,
+				A0F02AF0C7E472A33B68CADF /* Pods-OpenglLearn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +394,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75E13AF91EE7E79800F4115E /* Build configuration list for PBXNativeTarget "OpenglLearn" */;
 			buildPhases = (
+				06452FE0261117626F67FD57 /* [CP] Check Pods Manifest.lock */,
 				75E13ADE1EE7E79800F4115E /* Sources */,
 				75E13ADF1EE7E79800F4115E /* Frameworks */,
 				75E13AE01EE7E79800F4115E /* Resources */,
+				BF581C6A79672CC8809F91ED /* [CP] Embed Pods Frameworks */,
+				D99DA6D9E698572037FD2F90 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +421,7 @@
 				TargetAttributes = {
 					75E13AE11EE7E79800F4115E = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8DP569Z9AD;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,22 +449,114 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E13C721EE7F3CF00F4115E /* sj_20160705_25.JPG in Resources */,
+				75E13C731EE7F3CF00F4115E /* sj_20160705_26.JPG in Resources */,
+				75E13C661EE7F3CF00F4115E /* sj_20160705_14.JPG in Resources */,
+				75E13C651EE7F3CF00F4115E /* sj_20160705_13.JPG in Resources */,
+				75E13C771EE7F3CF00F4115E /* sj_20160705_30.JPG in Resources */,
+				75E13C781EE7F3CF00F4115E /* sj_20160705_31.JPG in Resources */,
+				75E13C741EE7F3CF00F4115E /* sj_20160705_28.JPG in Resources */,
+				75E13C6D1EE7F3CF00F4115E /* sj_20160705_20.JPG in Resources */,
+				75E13C711EE7F3CF00F4115E /* sj_20160705_24.JPG in Resources */,
+				75E13C7A1EE7F3CF00F4115E /* sj_20160705_5.JPG in Resources */,
 				75E13AF51EE7E79800F4115E /* LaunchScreen.storyboard in Resources */,
+				75E13C7D1EE7F3CF00F4115E /* sj_20160705_8.JPG in Resources */,
+				75E13C6B1EE7F3CF00F4115E /* sj_20160705_19.JPG in Resources */,
+				75E13C671EE7F3CF00F4115E /* sj_20160705_15.JPG in Resources */,
 				75E13AF21EE7E79800F4115E /* Assets.xcassets in Resources */,
+				75E13C621EE7F3CF00F4115E /* sj_20160705_10.JPG in Resources */,
+				75E13C6A1EE7F3CF00F4115E /* sj_20160705_18.JPG in Resources */,
+				75E13C681EE7F3CF00F4115E /* sj_20160705_16.JPG in Resources */,
+				75E13C601EE7F3CF00F4115E /* IMG_0963.PNG in Resources */,
 				75E13AF01EE7E79800F4115E /* Main.storyboard in Resources */,
+				75E13C6E1EE7F3CF00F4115E /* sj_20160705_21.JPG in Resources */,
+				75E13C631EE7F3CF00F4115E /* sj_20160705_11.JPG in Resources */,
+				75E13C7B1EE7F3CF00F4115E /* sj_20160705_6.JPG in Resources */,
+				75E13C5F1EE7F3CF00F4115E /* image001.png in Resources */,
+				75E13C641EE7F3CF00F4115E /* sj_20160705_12.JPG in Resources */,
+				75E13C751EE7F3CF00F4115E /* sj_20160705_29.JPG in Resources */,
+				75E13C691EE7F3CF00F4115E /* sj_20160705_17.JPG in Resources */,
+				75E13C7E1EE7F3CF00F4115E /* sj_20160705_9.JPG in Resources */,
+				75E13C7C1EE7F3CF00F4115E /* sj_20160705_7.JPG in Resources */,
+				75E13C6F1EE7F3CF00F4115E /* sj_20160705_22.JPG in Resources */,
+				75E13C6C1EE7F3CF00F4115E /* sj_20160705_2.JPG in Resources */,
+				75E13C701EE7F3CF00F4115E /* sj_20160705_23.JPG in Resources */,
+				75E13C791EE7F3CF00F4115E /* sj_20160705_4.JPG in Resources */,
+				75E13C761EE7F3CF00F4115E /* sj_20160705_3.JPG in Resources */,
+				75E13C611EE7F3CF00F4115E /* sj_20160705_1.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06452FE0261117626F67FD57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF581C6A79672CC8809F91ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenglLearn/Pods-OpenglLearn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D99DA6D9E698572037FD2F90 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenglLearn/Pods-OpenglLearn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75E13ADE1EE7E79800F4115E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E13BB61EE7EF9800F4115E /* TJ_Opengl_C.c in Sources */,
+				75E13BBE1EE7F0CC00F4115E /* OpenGLViewController.m in Sources */,
+				75E13BA91EE7EBC600F4115E /* ImagePicker.m in Sources */,
+				75E13B8B1EE7EAD000F4115E /* TJ_OpenglBaseView.m in Sources */,
+				75E13BAC1EE7EBC600F4115E /* TJ_PointConver.m in Sources */,
 				75E13AED1EE7E79800F4115E /* ViewController.m in Sources */,
+				75E13C851EE7F47E00F4115E /* TJ_DrawTool_C.c in Sources */,
+				75E13B8A1EE7EAD000F4115E /* TJ_PictureBaseVC.m in Sources */,
 				75E13AEA1EE7E79800F4115E /* AppDelegate.m in Sources */,
+				75E13BAA1EE7EBC600F4115E /* OpenglTool.mm in Sources */,
+				75E13BC11EE7F27100F4115E /* TJOpenglesCurve.m in Sources */,
+				75E13B891EE7EAD000F4115E /* TJ_BaseController.m in Sources */,
+				75E13C841EE7F47E00F4115E /* TJ_DrawTool.m in Sources */,
 				75E13AE71EE7E79800F4115E /* main.m in Sources */,
+				75E13BAB1EE7EBC600F4115E /* TJ_GLProgram.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +674,11 @@
 		};
 		75E13AFA1EE7E79800F4115E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEEDAF59250C38C7BEFCEDCB /* Pods-OpenglLearn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DP569Z9AD;
+				GCC_PREFIX_HEADER = OpenglLearn/PrefixHeader.pch;
 				INFOPLIST_FILE = OpenglLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XL.OpenglLearn;
@@ -281,8 +688,11 @@
 		};
 		75E13AFB1EE7E79800F4115E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F02AF0C7E472A33B68CADF /* Pods-OpenglLearn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DP569Z9AD;
+				GCC_PREFIX_HEADER = OpenglLearn/PrefixHeader.pch;
 				INFOPLIST_FILE = OpenglLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XL.OpenglLearn;
@@ -309,6 +719,7 @@
 				75E13AFB1EE7E79800F4115E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  OpenglLearn
+//
+//  Created by 勒俊 on 2017/6/7.
+//  Copyright © 2017年 勒俊. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef __OBJC__
+
+#import "TJ_BaseController.h"
+#import "cHeader.h"
+
+#define Screen_Height               [UIScreen mainScreen].bounds.size.height
+#define Screen_Width                [UIScreen mainScreen].bounds.size.width
+
+
+#define ToolDirectory       [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject] stringByAppendingPathComponent:@"tool"]
+#define PictureHeader(imageName)       [[NSBundle mainBundle] pathForResource:imageName ofType:nil]
+
+
+
+#endif
+
+#endif /* PrefixHeader_pch */
