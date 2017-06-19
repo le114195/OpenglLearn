@@ -24,7 +24,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     
-    self.dataArray = @[@"扭曲"];
+    self.dataArray = @[@"扭曲", @"3d"];
 
     [self tableViewConfigure];
     

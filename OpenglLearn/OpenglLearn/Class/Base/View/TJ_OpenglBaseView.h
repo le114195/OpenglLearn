@@ -32,7 +32,6 @@
 @property (nonatomic, assign) CGFloat           ImgHeight;
 
 
-
 - (void)destoryRenderAndFrameBuffer;
 
 - (void)setupLayer;

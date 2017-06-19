@@ -60,6 +60,9 @@
 		75E13C7E1EE7F3CF00F4115E /* sj_20160705_9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 75E13C211EE7F3CF00F4115E /* sj_20160705_9.JPG */; };
 		75E13C841EE7F47E00F4115E /* TJ_DrawTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13C811EE7F47E00F4115E /* TJ_DrawTool.m */; };
 		75E13C851EE7F47E00F4115E /* TJ_DrawTool_C.c in Sources */ = {isa = PBXBuildFile; fileRef = 75E13C821EE7F47E00F4115E /* TJ_DrawTool_C.c */; };
+		75E13C881EE801E100F4115E /* TJ3DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13C871EE801E100F4115E /* TJ3DView.m */; };
+		75E13C8F1EE80BA200F4115E /* GLESMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 75E13C891EE80BA200F4115E /* GLESMath.c */; };
+		75E13C901EE80BA200F4115E /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13C8C1EE80BA200F4115E /* GLESUtils.m */; };
 		7F25AE516D6D776ED02FA33D /* libPods-OpenglLearn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 593BBCC2465661C4A56865D5 /* libPods-OpenglLearn.a */; };
 /* End PBXBuildFile section */
 
@@ -136,6 +139,14 @@
 		75E13C811EE7F47E00F4115E /* TJ_DrawTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJ_DrawTool.m; sourceTree = "<group>"; };
 		75E13C821EE7F47E00F4115E /* TJ_DrawTool_C.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TJ_DrawTool_C.c; sourceTree = "<group>"; };
 		75E13C831EE7F47E00F4115E /* TJ_DrawTool_C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJ_DrawTool_C.h; sourceTree = "<group>"; };
+		75E13C861EE801E100F4115E /* TJ3DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJ3DView.h; sourceTree = "<group>"; };
+		75E13C871EE801E100F4115E /* TJ3DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJ3DView.m; sourceTree = "<group>"; };
+		75E13C891EE80BA200F4115E /* GLESMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLESMath.c; sourceTree = "<group>"; };
+		75E13C8A1EE80BA200F4115E /* GLESMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESMath.h; sourceTree = "<group>"; };
+		75E13C8B1EE80BA200F4115E /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
+		75E13C8C1EE80BA200F4115E /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
+		75E13C8D1EE80BA200F4115E /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quaternion.h; sourceTree = "<group>"; };
+		75E13C8E1EE80BA200F4115E /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
 		A0F02AF0C7E472A33B68CADF /* Pods-OpenglLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenglLearn.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenglLearn/Pods-OpenglLearn.release.xcconfig"; sourceTree = "<group>"; };
 		FEEDAF59250C38C7BEFCEDCB /* Pods-OpenglLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenglLearn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenglLearn/Pods-OpenglLearn.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -322,6 +333,8 @@
 		75E13BBB1EE7F0AC00F4115E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				75E13C861EE801E100F4115E /* TJ3DView.h */,
+				75E13C871EE801E100F4115E /* TJ3DView.m */,
 				75E13BBF1EE7F27100F4115E /* TJOpenglesCurve.h */,
 				75E13BC01EE7F27100F4115E /* TJOpenglesCurve.m */,
 			);
@@ -370,6 +383,12 @@
 		75E13C7F1EE7F47E00F4115E /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				75E13C891EE80BA200F4115E /* GLESMath.c */,
+				75E13C8A1EE80BA200F4115E /* GLESMath.h */,
+				75E13C8B1EE80BA200F4115E /* GLESUtils.h */,
+				75E13C8C1EE80BA200F4115E /* GLESUtils.m */,
+				75E13C8D1EE80BA200F4115E /* Quaternion.h */,
+				75E13C8E1EE80BA200F4115E /* Vector.h */,
 				75E13C801EE7F47E00F4115E /* TJ_DrawTool.h */,
 				75E13C811EE7F47E00F4115E /* TJ_DrawTool.m */,
 				75E13C821EE7F47E00F4115E /* TJ_DrawTool_C.c */,
@@ -546,10 +565,13 @@
 				75E13BBE1EE7F0CC00F4115E /* OpenGLViewController.m in Sources */,
 				75E13BA91EE7EBC600F4115E /* ImagePicker.m in Sources */,
 				75E13B8B1EE7EAD000F4115E /* TJ_OpenglBaseView.m in Sources */,
+				75E13C8F1EE80BA200F4115E /* GLESMath.c in Sources */,
 				75E13BAC1EE7EBC600F4115E /* TJ_PointConver.m in Sources */,
+				75E13C881EE801E100F4115E /* TJ3DView.m in Sources */,
 				75E13AED1EE7E79800F4115E /* ViewController.m in Sources */,
 				75E13C851EE7F47E00F4115E /* TJ_DrawTool_C.c in Sources */,
 				75E13B8A1EE7EAD000F4115E /* TJ_PictureBaseVC.m in Sources */,
+				75E13C901EE80BA200F4115E /* GLESUtils.m in Sources */,
 				75E13AEA1EE7E79800F4115E /* AppDelegate.m in Sources */,
 				75E13BAA1EE7EBC600F4115E /* OpenglTool.mm in Sources */,
 				75E13BC11EE7F27100F4115E /* TJOpenglesCurve.m in Sources */,

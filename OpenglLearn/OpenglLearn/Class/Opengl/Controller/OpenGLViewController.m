@@ -8,6 +8,7 @@
 
 #import "OpenGLViewController.h"
 #import "TJOpenglesCurve.h"
+#import "TJ3DView.h"
 
 @interface OpenGLViewController ()
 
@@ -49,6 +50,10 @@
             [self curveView];
             break;
             
+        case 1:
+            [self openGL3D];
+            break;
+            
         default:
             break;
     }
@@ -64,6 +69,13 @@
     [self.view addSubview:curve];
 }
 
+
+/** 3D */
+- (void)openGL3D {
+    
+    TJ3DView *view = [[TJ3DView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:view];
+}
 
 
 
