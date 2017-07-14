@@ -24,10 +24,13 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     
-    self.dataArray = @[@"扭曲", @"3d"];
-
-    [self tableViewConfigure];
+    self.dataArray = @[@"扭曲", @"3d", @"多纹理", @"3d2"];
     
+    NSString *ff = [self.dataArray objectAtIndex:1];
+    
+    NSLog(@"%@", ff);
+    
+    [self tableViewConfigure];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -35,7 +38,6 @@
 
 - (void)tableViewConfigure
 {
-    
     UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, Screen_Width, Screen_Height) style:UITableViewStylePlain];
     self.tableView = tableView;
     [self.view addSubview:tableView];
@@ -44,8 +46,6 @@
     
     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
 }
-
-
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

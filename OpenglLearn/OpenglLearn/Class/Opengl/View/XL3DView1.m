@@ -1,16 +1,16 @@
 //
-//  TJ3DView.m
-//  PictureProcessing
+//  XL3DView1.m
+//  OpenglLearn
 //
-//  Created by 勒俊 on 2017/1/22.
+//  Created by 勒俊 on 2017/6/29.
 //  Copyright © 2017年 勒俊. All rights reserved.
 //
 
-#import "TJ3DView.h"
+#import "XL3DView1.h"
 #import "GLESMath.h"
 
 
-NSString *const TJ_3DDemoVertexShaderString = TJ_STRING_ES
+NSString *const TJ_XL3D1VertexShaderString = TJ_STRING_ES
 (
  attribute vec4 position;
  attribute vec4 positionColor;
@@ -29,7 +29,7 @@ NSString *const TJ_3DDemoVertexShaderString = TJ_STRING_ES
  );
 
 
-NSString *const TJ_3DDemoFragmentShaderString = TJ_STRING_ES
+NSString *const TJ_XL3D1FragmentShaderString = TJ_STRING_ES
 (
  
  varying lowp vec4 varyColor;
@@ -38,10 +38,15 @@ NSString *const TJ_3DDemoFragmentShaderString = TJ_STRING_ES
 {
     gl_FragColor = varyColor;
 }
-
+ 
  );
 
-@implementation TJ3DView
+
+
+
+
+@implementation XL3DView1
+
 {
     float xdegree;
     float yDegree;
@@ -58,9 +63,9 @@ NSString *const TJ_3DDemoFragmentShaderString = TJ_STRING_ES
 - (instancetype)initWithFrame:(CGRect)frame
 {
     if ([super initWithFrame:frame]) {
-        VertexShaderString = TJ_3DDemoVertexShaderString;
-        FragmentShaderString = TJ_3DDemoFragmentShaderString;
-    
+        VertexShaderString = TJ_XL3D1VertexShaderString;
+        FragmentShaderString = TJ_XL3D1FragmentShaderString;
+        
         xdegree = 30;
         yDegree = 0;
         
@@ -92,21 +97,24 @@ NSString *const TJ_3DDemoFragmentShaderString = TJ_STRING_ES
     
     GLuint indices[] =
     {
-        0, 3, 2,
-        0, 1, 3,
-        0, 2, 4,
-        0, 4, 1,
-        2, 3, 4,
-        1, 4, 3,
+        0, 2, 3,
+        3, 1, 0,
+        4, 5, 7,
+        7, 6, 4,
+
     };
     
     GLfloat attrArr[] =
     {
-        -0.5f, 0.5f, 0.0f,      1.0f, 0.0f, 1.0f, //左上
-        0.5f, 0.5f, 0.0f,       1.0f, 0.0f, 1.0f, //右上
-        -0.5f, -0.5f, 0.0f,     1.0f, 1.0f, 1.0f, //左下
-        0.5f, -0.5f, 0.0f,      1.0f, 1.0f, 1.0f, //右下
-        0.0f, 0.0f, 1.0f,      0.0f, 1.0f, 0.0f, //顶点
+        -0.5f, 0.5f, -0.5f,      1.0f, 0.0f, 1.0f, //左上(底)
+        0.5f, 0.5f, -0.5f,       1.0f, 0.0f, 1.0f, //右上(底)
+        -0.5f, -0.5f, -0.5f,     1.0f, 1.0f, 1.0f, //左下(底)
+        0.5f, -0.5f, -0.5f,      1.0f, 1.0f, 1.0f, //右下(底)
+        
+        -0.5f, 0.5f, 0.5f,      1.0f, 0.0f, 1.0f, //左上(顶)
+        0.5f, 0.5f, 0.5f,       1.0f, 0.0f, 1.0f, //右上(顶)
+        -0.5f, -0.5f, 0.5f,     1.0f, 1.0f, 1.0f, //左下(顶)
+        0.5f, -0.5f, 0.5f,      1.0f, 1.0f, 1.0f, //右下(顶)
     };
     GLuint  vertexBuffer;
     glGenBuffers(1, &vertexBuffer);
@@ -188,7 +196,6 @@ NSString *const TJ_3DDemoFragmentShaderString = TJ_STRING_ES
         
     }
 }
-
 
 
 @end

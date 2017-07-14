@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75716D831EFB9AFE0036FC99 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 75716D821EFB9AFE0036FC99 /* NSArray+Safe.m */; };
+		75716D861EFB9F3A0036FC99 /* UIViewController+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 75716D851EFB9F3A0036FC99 /* UIViewController+Safe.m */; };
+		7571C56B1F03A26500C6F71A /* SingleTextureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7571C56A1F03A26500C6F71A /* SingleTextureView.m */; };
+		75AF49A21EF7A0740068EB84 /* MultiTextureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AF49A11EF7A0740068EB84 /* MultiTextureView.m */; };
 		75E13AE71EE7E79800F4115E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13AE61EE7E79800F4115E /* main.m */; };
 		75E13AEA1EE7E79800F4115E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13AE91EE7E79800F4115E /* AppDelegate.m */; };
 		75E13AED1EE7E79800F4115E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13AEC1EE7E79800F4115E /* ViewController.m */; };
@@ -63,11 +67,20 @@
 		75E13C881EE801E100F4115E /* TJ3DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13C871EE801E100F4115E /* TJ3DView.m */; };
 		75E13C8F1EE80BA200F4115E /* GLESMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 75E13C891EE80BA200F4115E /* GLESMath.c */; };
 		75E13C901EE80BA200F4115E /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E13C8C1EE80BA200F4115E /* GLESUtils.m */; };
+		75FA094D1F0495DF00C2B8E2 /* XL3DView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FA094C1F0495DF00C2B8E2 /* XL3DView1.m */; };
 		7F25AE516D6D776ED02FA33D /* libPods-OpenglLearn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 593BBCC2465661C4A56865D5 /* libPods-OpenglLearn.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		593BBCC2465661C4A56865D5 /* libPods-OpenglLearn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenglLearn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75716D811EFB9AFE0036FC99 /* NSArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		75716D821EFB9AFE0036FC99 /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		75716D841EFB9F3A0036FC99 /* UIViewController+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Safe.h"; sourceTree = "<group>"; };
+		75716D851EFB9F3A0036FC99 /* UIViewController+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Safe.m"; sourceTree = "<group>"; };
+		7571C5691F03A26500C6F71A /* SingleTextureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleTextureView.h; sourceTree = "<group>"; };
+		7571C56A1F03A26500C6F71A /* SingleTextureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleTextureView.m; sourceTree = "<group>"; };
+		75AF49A01EF7A0740068EB84 /* MultiTextureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiTextureView.h; sourceTree = "<group>"; };
+		75AF49A11EF7A0740068EB84 /* MultiTextureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiTextureView.m; sourceTree = "<group>"; };
 		75E13AE21EE7E79800F4115E /* OpenglLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenglLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E13AE61EE7E79800F4115E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75E13AE81EE7E79800F4115E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -147,6 +160,8 @@
 		75E13C8C1EE80BA200F4115E /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
 		75E13C8D1EE80BA200F4115E /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quaternion.h; sourceTree = "<group>"; };
 		75E13C8E1EE80BA200F4115E /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		75FA094B1F0495DF00C2B8E2 /* XL3DView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL3DView1.h; sourceTree = "<group>"; };
+		75FA094C1F0495DF00C2B8E2 /* XL3DView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XL3DView1.m; sourceTree = "<group>"; };
 		A0F02AF0C7E472A33B68CADF /* Pods-OpenglLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenglLearn.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenglLearn/Pods-OpenglLearn.release.xcconfig"; sourceTree = "<group>"; };
 		FEEDAF59250C38C7BEFCEDCB /* Pods-OpenglLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenglLearn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenglLearn/Pods-OpenglLearn.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,6 +190,17 @@
 				593BBCC2465661C4A56865D5 /* libPods-OpenglLearn.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75716D801EFB9AE00036FC99 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				75716D811EFB9AFE0036FC99 /* NSArray+Safe.h */,
+				75716D821EFB9AFE0036FC99 /* NSArray+Safe.m */,
+				75716D841EFB9F3A0036FC99 /* UIViewController+Safe.h */,
+				75716D851EFB9F3A0036FC99 /* UIViewController+Safe.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		75E13AD91EE7E79800F4115E = {
@@ -264,6 +290,7 @@
 		75E13B8C1EE7EB6E00F4115E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				75716D801EFB9AE00036FC99 /* Category */,
 				75E13BB71EE7EFF100F4115E /* header */,
 				75E13B8E1EE7EBC600F4115E /* Tool */,
 			);
@@ -333,10 +360,16 @@
 		75E13BBB1EE7F0AC00F4115E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				75AF49A01EF7A0740068EB84 /* MultiTextureView.h */,
+				75AF49A11EF7A0740068EB84 /* MultiTextureView.m */,
 				75E13C861EE801E100F4115E /* TJ3DView.h */,
 				75E13C871EE801E100F4115E /* TJ3DView.m */,
 				75E13BBF1EE7F27100F4115E /* TJOpenglesCurve.h */,
 				75E13BC01EE7F27100F4115E /* TJOpenglesCurve.m */,
+				7571C5691F03A26500C6F71A /* SingleTextureView.h */,
+				7571C56A1F03A26500C6F71A /* SingleTextureView.m */,
+				75FA094B1F0495DF00C2B8E2 /* XL3DView1.h */,
+				75FA094C1F0495DF00C2B8E2 /* XL3DView1.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -565,13 +598,18 @@
 				75E13BBE1EE7F0CC00F4115E /* OpenGLViewController.m in Sources */,
 				75E13BA91EE7EBC600F4115E /* ImagePicker.m in Sources */,
 				75E13B8B1EE7EAD000F4115E /* TJ_OpenglBaseView.m in Sources */,
+				7571C56B1F03A26500C6F71A /* SingleTextureView.m in Sources */,
 				75E13C8F1EE80BA200F4115E /* GLESMath.c in Sources */,
 				75E13BAC1EE7EBC600F4115E /* TJ_PointConver.m in Sources */,
 				75E13C881EE801E100F4115E /* TJ3DView.m in Sources */,
 				75E13AED1EE7E79800F4115E /* ViewController.m in Sources */,
 				75E13C851EE7F47E00F4115E /* TJ_DrawTool_C.c in Sources */,
+				75FA094D1F0495DF00C2B8E2 /* XL3DView1.m in Sources */,
 				75E13B8A1EE7EAD000F4115E /* TJ_PictureBaseVC.m in Sources */,
 				75E13C901EE80BA200F4115E /* GLESUtils.m in Sources */,
+				75716D831EFB9AFE0036FC99 /* NSArray+Safe.m in Sources */,
+				75AF49A21EF7A0740068EB84 /* MultiTextureView.m in Sources */,
+				75716D861EFB9F3A0036FC99 /* UIViewController+Safe.m in Sources */,
 				75E13AEA1EE7E79800F4115E /* AppDelegate.m in Sources */,
 				75E13BAA1EE7EBC600F4115E /* OpenglTool.mm in Sources */,
 				75E13BC11EE7F27100F4115E /* TJOpenglesCurve.m in Sources */,

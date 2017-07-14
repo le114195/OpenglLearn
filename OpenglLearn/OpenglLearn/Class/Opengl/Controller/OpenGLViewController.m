@@ -9,6 +9,8 @@
 #import "OpenGLViewController.h"
 #import "TJOpenglesCurve.h"
 #import "TJ3DView.h"
+#import "MultiTextureView.h"
+#import "XL3DView1.h"
 
 @interface OpenGLViewController ()
 
@@ -54,6 +56,14 @@
             [self openGL3D];
             break;
             
+        case 2:
+            [self multiTexture];
+            break;
+            
+        case 3:
+            [self xl3dView1];
+            break;
+            
         default:
             break;
     }
@@ -74,6 +84,20 @@
 - (void)openGL3D {
     
     TJ3DView *view = [[TJ3DView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:view];
+}
+
+
+/** 多纹理 */
+- (void)multiTexture {
+    
+    MultiTextureView *mT = [[MultiTextureView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:mT];
+}
+
+
+- (void)xl3dView1 {
+    XL3DView1 *view = [[XL3DView1 alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:view];
 }
 

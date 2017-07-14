@@ -104,7 +104,6 @@ NSString *const TJ_CurveFragmentShaderString = TJ_STRING_ES
         self.ImgWidth = image.size.width;
         self.ImgHeight = image.size.height;
         
-        
         aspectRatio = image.size.height / image.size.width;
         
         rectW = 100;
